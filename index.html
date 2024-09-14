@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Milestone 05 UNIQUE PATH AND SHAREABLE LINK BY SYED ZUMEER IMAM</h1>
+    <p>Unique URL Generation</p>
+    <p>The system generates a unique path for each user's resume based on their username.</p>
+
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="resume url"> Resume URL:</label>
+            <input type="resume url" id="resume url" name="resume url" required><br>
+
+           
+            <label for="name"> Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+        </fieldset>
+
+
+ <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education:</label>
+            <textarea id="education" name="education" rows="4" required></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="experience">Experience:</label>
+            <textarea id="experience" name="experience" rows="4" required></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" rows="4" required></textarea><br>
+        </fieldset>
+        
+        <button type="submit">Generate Resume and Link</button>
+    </form>
+
+    <div id="resumeOutput" style="margin-top: 20px;"></div>
+    <div id="shareableLinkOutput" style="margin-top: 20px;"></div>
+
+    <script src="dist/script.js"></script> <!-- Include compiled TypeScript file -->
+</body>
+</html>
+
+
+           
